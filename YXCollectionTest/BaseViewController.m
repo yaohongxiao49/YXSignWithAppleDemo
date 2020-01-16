@@ -27,7 +27,7 @@ API_AVAILABLE(ios(13.0))
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+     
     _dataSourceArr = [[NSMutableArray alloc] initWithObjects:@"普通collection", @"瀑布流collection", nil];
     
     _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) - 64) style:UITableViewStylePlain];
